@@ -2,8 +2,8 @@
 - A web app for calculating tip, based on the percentage of the total bill. 
 
 ## Technologies used
-- HTML3
-- CSS5
+- HTML5
+- CSS3
 - JavaScript(for coding algorithms)
 
 ## Software needed to run this app
