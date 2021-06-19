@@ -1,5 +1,5 @@
 ## Tip Calculator
-- An web app for calculating tip based on the percentage of the total bill. 
+- A web app for calculating tip, based on the percentage of the total bill. 
 
 ## Technologies used
 - JavaScript(for coding algorithms)
