@@ -1,0 +1,139 @@
+body {
+  font-family: Roboto;
+  background: linear-gradient(to left, #490c7a, #1F1C18);
+}
+
+#container {
+     /* height: 525px; */
+     width: 40%;
+     margin: auto;
+     background: #f7f7f7;
+     box-shadow: 0 0 3px rgb(0 0 0 / 82%);
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+}
+
+h1 {
+  background: #100111;
+  color: white;
+  margin: 0;
+  padding: 8% 20%;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+p {
+  padding-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+  padding: 0.5em;
+  border-radius: 8px;
+  margin: 2px;
+  width:60%;
+}
+
+#bill {
+  font-size: 14px;
+  color: #490c7a;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#bill:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#peopleamt {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: #490c7a;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+.PKRSign {
+  display: inline;
+}
+
+.tipselection {
+  margin-left: 20px;
+  font-size: 25px;
+}
+​
+.peopleamt
+{
+  margin-left: 20px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 22px auto;
+  background: #100111;
+  border-radius: 10px;
+  width: 50%;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #490c7a;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 24px;
+  margin-top: 5px;
+  text-align: center;
+}
+.align {
+  text-align: center;
+  display: inline-block;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 15px;
+  font-weight: bold;
+}
+#peop{
+  margin-left: 20px;
+}
+#serv{
+  border-radius: 8px;
+  padding: 0.5em;
+  margin: 2px;
+}
+#amt{
+  display: block;
+  margin-top:10px;
+}
